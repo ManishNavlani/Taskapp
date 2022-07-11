@@ -22,6 +22,45 @@ To run this project, you will need to add the following environment variables to
 `MONGODB_URL`=mongodb+srv://manish:manish@cluster0.a7em3.mongodb.net/?retryWrites=true&w=majority
 
 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ManishNavlani/Taskapp.git
+```
+
+Split terminal into two (frontend and backend)
+
+
+Go to the project directory (for both frontend and backend)
+```bash
+  cd Taskapp
+```
+
+for frontend side terminal
+```bash
+  cd Client
+```
+for backend side terminal
+```bash
+  cd Api
+```
+
+
+Install dependencies of bothend
+
+```bash
+  npm install
+```
+
+Start the server of bothend
+
+```bash
+  npm run dev
+```
+
 ## API Reference
 
 #### Backend Base url
@@ -67,44 +106,6 @@ http://localhost:3001/
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `String` | **Required**. Id to Delete |
 
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/ManishNavlani/Taskapp.git
-```
-
-Split terminal into two (frontend and backend)
-
-
-Go to the project directory (for both frontend and backend)
-```bash
-  cd Taskapp
-```
-
-for frontend side terminal
-```bash
-  cd Client
-```
-for backend side terminal
-```bash
-  cd Api
-```
-
-
-Install dependencies of bothend
-
-```bash
-  npm install
-```
-
-Start the server of bothend
-
-```bash
-  npm run dev
-```
 
 ## Author
 
